@@ -1,0 +1,17 @@
+/* Paragraph spacing inside articles */
+article p {
+    margin-top: 15px;  
+}
+article {
+    width: 100%;                  
+    float: left;                  
+    padding: 20px;                
+    margin: 20px 0;              
+    border-radius: 10px;       
+    box-shadow: 0 4px 8px #000000; 
+}
+/* Coffee Cup Images */
+.coffee-img {
+    float: left;           
+    margin-right: 20px;    
+}

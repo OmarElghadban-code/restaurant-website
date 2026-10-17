@@ -1,0 +1,23 @@
+/* ===== Homepage Coffee Mug Photo ===== */
+main img {
+    width: 50%;
+    margin: 20px;
+    float: right;
+    border: 5px solid #FFFFFF;       
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5); 
+    display: block;                  
+}
+aside {
+    background-color: #D6CBC0;
+    padding: 15px;
+    border: 2px solid #A87B50;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+aside h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}

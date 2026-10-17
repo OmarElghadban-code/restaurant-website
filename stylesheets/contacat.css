@@ -1,0 +1,62 @@
+/* Form container styling */
+form {
+    background-color: #D6CBC0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Labels and inputs */
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #A87B50;
+    font-family: sans-serif;
+}
+
+/* Textarea size */
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* Buttons */
+.form-buttons {
+    text-align: center;
+}
+
+.form-buttons input[type="submit"],
+.form-buttons input[type="reset"] {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 10px 0 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #ED4749;
+    color: white;
+    font-weight: bold;
+}
+
+.form-buttons input[type="submit"]:hover {
+    background-color: #C0392B;
+}
+
+.form-buttons input[type="reset"]:hover {
+    background-color: #A87B50;
+}

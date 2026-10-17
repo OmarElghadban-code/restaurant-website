@@ -1,0 +1,81 @@
+/* Headings for coffee sections */
+h2 {
+
+    background-image: url('../images/project2_images/beansBanner.jpg');
+    background-size: cover;
+    color: #FFFFFF;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 3px solid #2E1B11;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Coffee table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+th.size {
+    text-align: center;
+}
+
+td a {
+    text-decoration: none;
+    color: #2E1B11;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+/* Coffee table */
+table {
+    width: 90%;              
+    margin: 0 auto;           
+    border-collapse: collapse; 
+}
+/* Table Data Cells */
+td {
+    border: 1px solid #FFFFFF;   
+    padding: 10px;               
+    background-color: #F7E8DE;   
+}
+/* Table Heading Cells */
+th {
+    background-color: #2E1B11;     
+    color: #FFFFFF;                
+    padding: 10px;                 
+}
+
+/* Round the top corners of the first row */
+th:first-child {
+    border-top-left-radius: 10px;  
+}
+
+th:last-child {
+    border-top-right-radius: 10px; 
+}
+
+
+th.size {
+    width: 10%;                     
+    text-align: center;             
+}
+
+section ul li {
+    line-height: 1.8; 
+}
+
+

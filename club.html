@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+    Author: firstName lastName
+    Date: mm/dd/yyyy
+-->
+<html lang="en">
+
+<head>
+    <title>Join Our Coffee Club</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styleSheets/main.css">
+    <link rel="stylesheet" href="stylesheets/club.css">
+</head>
+
+<body>
+
+    <header>
+    <img src="images/project2_images/crownCoffeeLogo_white.png" alt="Crown Coffee Logo">
+
+    <h1>Join our Coffee Club</h1>
+    <nav>
+        <a href="index.html">Home</a> &bull;
+        <a href="coffee.html">Our Coffee</a> &bull;
+        <a href="coffeeGuide.html">Coffee Guide</a> &bull;
+        <a href="menu.html">Menu</a> &bull;
+        <a href="club.html">Club</a> &bull;
+        <a href="contact.html">Contact</a> &bull;
+        <a href="UpcomingEvents.html">Upcoming Events</a>
+    </nav>
+    </header>
+
+    <main>
+    <section>
+        <h2>Crown Coffee Subscription</h2>
+        <p>Prefer to enjoy your coffee at home? No problem! Sign up for our Coffee Club and get the best coffee delivered right to your door.</p>
+    </section>
+
+    <!-- Coffee Club Form Section -->
+    <section>
+        <h2>Sign Up for Our Coffee Club</h2>
+        <p>An asterisk denotes a required field.</p>
+
+        <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
+
+            <!-- Name -->
+            <label for="name">*Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <!-- Email -->
+            <label for="email">*Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <!-- Password -->
+            <label for="password">*Password:</label><br>
+            <input type="password" id="password" name="password" required minlength="8" maxlength="25"><br>
+
+            <!-- Type of Bean -->
+            <label for="bean">Type of Bean:</label>
+            <select id="bean" name="bean">
+                <option value="ground">Ground</option>
+                <option value="whole">Whole</option>
+                <option value="rounds">Rounds</option>
+            </select><br><br>
+
+            <!-- Regular or Decaf? -->
+            <fieldset>
+                <legend>Regular or Decaf?</legend>
+                <input type="radio" id="regular" name="coffeeType" value="Regular">
+                <label for="regular">Regular</label><br>
+                <input type="radio" id="decaf" name="coffeeType" value="Decaf">
+                <label for="decaf">Decaf</label><br>
+            </fieldset><br>
+
+            <!-- Type of Roast -->
+            <fieldset>
+                <legend>Type of Roast</legend>
+                <input type="checkbox" id="highlander" name="roast" value="Highlander Grogg">
+                <label for="highlander">Highlander Grogg</label><br>
+
+                <input type="checkbox" id="cinnamon" name="roast" value="Cinnamon Swirl">
+                <label for="cinnamon">Cinnamon Swirl</label><br>
+
+                <input type="checkbox" id="hazelnut" name="roast" value="Hazelnut Cream">
+                <label for="hazelnut">Hazelnut Cream</label><br>
+
+                <input type="checkbox" id="french" name="roast" value="French Vanilla">
+                <label for="french">French Vanilla</label><br>
+
+                <input type="checkbox" id="blueberry" name="roast" value="Blueberry Nut">
+                <label for="blueberry">Blueberry Nut</label><br>
+
+                <input type="checkbox" id="banana" name="roast" value="Banana Caramel">
+                <label for="banana">Banana Caramel</label><br>
+
+                <input type="checkbox" id="chocolate" name="roast" value="Chocolate Cherry">
+                <label for="chocolate">Chocolate Cherry</label><br>
+
+                <input type="checkbox" id="english" name="roast" value="English Toffee">
+                <label for="english">English Toffee</label><br>
+
+                <input type="checkbox" id="vanilla" name="roast" value="Vanilla Raspberry">
+                <label for="vanilla">Vanilla Raspberry</label><br>
+            </fieldset><br>
+
+            <!-- Additional Comments -->
+            <label for="comments">Additional Comments:</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="50"></textarea><br><br>
+
+            <!-- Submit & Reset Buttons -->
+            <div class="button-container">
+            <input type="submit" value="Order Now">
+            <input type="reset" value="Clear Form">
+           </div> 
+
+        </form>
+    </section>
+</main>
+
+
+    <footer>
+        <div class="hours-location">
+            <p><a href="contact.html">Hours and Locations</a></p>
+        </div>
+
+        <address>
+        <p>Developed by: <a href="mailto:oelghadban1@madisoncollege.edu">oelghadban1@madisoncollege.edu</a></p>
+        </address>
+    </footer>
+
+</body>
+
+</html>

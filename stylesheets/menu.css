@@ -1,0 +1,33 @@
+/* Menu Item Names */
+dt {
+    font-weight: bold;
+    color: #8B705F;
+}
+
+/* Menu Descriptions */
+dd {
+    margin-bottom: 15px;   /* Adds space below each description */
+}
+
+/* Price Styles */
+.price {
+    font-family: "Times New Roman", Georgia, serif;  /* Serif font */
+    font-weight: normal;                             
+}
+
+/* Breakfast Notes */
+.breakfast-note {
+  color: #8B705F; 
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: normal;
+}
+
+/* Section Styles */
+section {
+  padding: 20px;             
+  margin: 30px 0;             
+  border-radius: 10px;        
+  box-shadow: 0 4px 8px #000000; 
+  background-color: #ffffff;  
+}
+
